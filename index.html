@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Пианино</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">
+                Пианино
+            </h1>
+            <div class="volume-box">
+                <img class="volume-low" src="img/volume-.svg" alt="">
+                <input class="volume" type="range" min="0" max="1" value="0.5" step="any">
+                <img class="volume-high" src="img/volume+.svg" alt="">
+            </div>
+            <div class="checkbox-inner">
+                <span>Раскладка</span>
+                <input class="checkbox" type="checkbox" checked>
+            </div>
+        </header>
+        <main class="main">
+            <ul class="keys">
+                <li class="keys__item white" data-key="a">a</li>
+                <li class="keys__item black" data-key="w">w</li>
+                <li class="keys__item white" data-key="s">s</li>
+                <li class="keys__item black" data-key="e">e</li>
+                <li class="keys__item white" data-key="d">d</li>
+                <li class="keys__item white" data-key="f">f</li>
+                <li class="keys__item black" data-key="t">t</li>
+                <li class="keys__item white" data-key="g">g</li>
+                <li class="keys__item black" data-key="y">y</li>
+                <li class="keys__item white" data-key="h">h</li>
+                <li class="keys__item black" data-key="u">u</li>
+                <li class="keys__item white" data-key="j">j</li>
+                <li class="keys__item white" data-key="k">k</li>
+                <li class="keys__item black" data-key="o">o</li>
+                <li class="keys__item white" data-key="l">l</li>
+                <li class="keys__item black" data-key="p">p</li>
+                <li class="keys__item white" data-key=";">;</li>
+            </ul>
+        </main>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
